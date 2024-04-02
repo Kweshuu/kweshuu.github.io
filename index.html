@@ -13,6 +13,12 @@
     div > p {
       text-align: center;
     }
+
+    /* Aligning "Even more Me" heading to the right */
+    .header-container {
+      display: flex;
+      justify-content: space-between;
+    }
   </style>
 </head>
 <body>
@@ -21,16 +27,19 @@
     <p>Hello, My name is kweshuu. Welcome to my hellhole of a website :3</p>
   </div>
 
-  <div>
-    <!-- Links to other webpages -->
-    <h2>The Links</h2>
-    <a href="./friends.html">Friends Pages<br></a>
-  </div>
-
-  <div>
-    <!-- links to me outside of this website -->
-    <h2>Even more Me</h2>
-    <a href="https://www.twitter.com/kweshuu">Twitter<br></a>
+  <!-- Headings container with flex layout -->
+  <div class="header-container">
+    <div>
+      <!-- Links to other webpages -->
+      <h2>The Links</h2>
+      <a href="./friends.html">Friends Pages<br></a>
+    </div>
+    <div>
+      <!-- links to me outside of this website -->
+      <h2 style="text-align: right;">Even more Me</h2>
+      <a href="https://www.twitter.com/kweshuu">Twitter<br></a>
+    </div>
   </div>
 </body>
 </html>
+

@@ -6,12 +6,12 @@
     <title>The Blog</title>
     <style>
         body {
-            background-image: url('https://art.teleportacia.org/observation/vernacular/stars/starry.gif'); /* Using the provided GIF */
-            background-repeat: repeat; /* Tiling the background */
+            background-color: #000000;
             color: #ffffff;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
+            position: relative; /* Adding relative positioning to the body */
         }
 
         h1 {
@@ -62,6 +62,14 @@
             text-decoration: none;
             color: #ffffff;
         }
+
+        /* Styling for the GIF */
+        .cat-gif {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 9999; /* Ensuring the GIF stays on top of other content */
+        }
     </style>
 </head>
 <body>
@@ -81,5 +89,8 @@
     <div class="top-right-link">
         <a href="index.html">b a c k</a>
     </div>
+
+    <!-- Adding the GIF -->
+    <img class="cat-gif" src="https://media.tenor.com/images/248f3ac79953af30611ae177bacbd4d0/tenor.gif" alt="Cat spinning GIF">
 </body>
 </html>

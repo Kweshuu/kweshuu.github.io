@@ -8,10 +8,6 @@
       background-repeat: repeat; /* Tiling the background */
       color: white;
       font-size: 100%; /* Resetting font size */
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      height: 100vh; /* Making body height equal to viewport height */
     }
 
     /* Centering only h1 and p elements */
@@ -41,22 +37,12 @@
     .even-more-me {
       text-align: right;
     }
-
-    /* Centering the counter horizontally and placing it at the bottom */
-    #userCount {
-      text-align: center;
-      position: absolute;
-      bottom: 20px;
-      left: 0;
-      right: 0;
-      width: 100%;
-    }
   </style>
 </head>
 <body>
   <div>
     <h1>Welcome to my page</h1>
-    <p>Loading...</p>
+    <p>Hello, My name is kweshuu. Welcome to my hellhole of a website :3</p>
   </div>
 
   <!-- Headings container with flex layout -->
@@ -75,15 +61,5 @@
       <a href="https://www.youtube.com/channel/UCcnxeBIZEkcofNih_A9QSjQ">Youtube<br></a>
     </div>
   </div>
-
-  <p id="userCount"></p>
-
-  <script>
-    // Simulated user counter
-    let userCount = localStorage.getItem('userCount') || 0;
-    userCount++;
-    localStorage.setItem('userCount', userCount);
-    document.getElementById('userCount').textContent = `You are visitor number ${userCount}`;
-  </script>
 </body>
 </html>

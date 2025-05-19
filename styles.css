@@ -1,9 +1,24 @@
 p {
   color: papayawhip;
 }
+  /* text */
+
+a.link {
+  color: palevioletred;
+}
+  /* unvisted link */
+
+a.visited {
+  color: mediumvioletred;
+}
+  /* viseted link */
+
 .class{
   color: cyan;
 }
+  /* class */
+
 h1 {
   color: mediumseagreen;
 }
+  /* headings */

@@ -21,4 +21,9 @@ a.visited {
 h1 {
   color: mediumseagreen;
 }
+.right {
+    color: papayawhip;
+    float: right;
+}
+
   /* headings */

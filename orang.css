@@ -12,7 +12,7 @@ body {
 div {
   border: solid;
   border-color: #893204;
-  border-padding: 12px;
+  border-width: auto;
     p {
       color: #e86a27;
       font-size: 24px;

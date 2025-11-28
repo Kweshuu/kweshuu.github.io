@@ -13,5 +13,8 @@ div {
   border: solid;
   border-color: #893204;
   width: auto;
-  padding: 24px;
+    /* gap between borders */
+  margin: 12px;
+    /* px gap from text to border */
+  padding: 12px;
 }

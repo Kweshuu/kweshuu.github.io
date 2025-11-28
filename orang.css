@@ -9,6 +9,16 @@ body {
   background-color: #680808;
 }
 
+div1 {
+  border: solid;
+  border-color: #893204;
+  width: auto;
+    /* gap between borders */
+  margin: 16px;
+    /* px gap from text to border */
+  padding: 12px;
+}
+
 div {
   border: solid;
   border-color: #893204;

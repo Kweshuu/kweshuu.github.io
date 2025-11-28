@@ -8,3 +8,7 @@ p {
 body {
   background-color: #680808;
 }
+
+div {
+  border-style: solid;
+}

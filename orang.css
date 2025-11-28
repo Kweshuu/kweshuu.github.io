@@ -14,7 +14,7 @@ div1 {
   border-color: #893204;
   width: auto;
     /* gap between borders */
-  margin: 16px;
+  margin: 12px;
     /* px gap from text to border */
   padding: 12px;
 }

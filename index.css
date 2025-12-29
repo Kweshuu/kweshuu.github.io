@@ -2,3 +2,12 @@ body {
   background-color: #360552;
 }
 
+div {
+  border: solid;
+  border-color: #893204;
+  width: auto;
+    /* gap between borders */
+  margin: 12px;
+    /* px gap from text to border */
+  padding: 12px;
+}

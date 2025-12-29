@@ -7,7 +7,7 @@ p {
 
 body {
     /* pleace put me inside url("") pleace have mercy */ 
-  background-image: url("pictures/artbgsmall.png");
+  background-image: url("/../pictures/artbgsmall.png");
     /* ITS IN FUCKING PICTURES AHHHHHHHHHH */
   
   background-repeat: no-repeat;

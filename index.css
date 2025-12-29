@@ -32,3 +32,11 @@ nav {
   width: 100;
   padding: 12px;
 }
+
+/* my beloved shit */
+article {
+  float: left;
+  padding: 12px;
+  width: auto;
+
+}

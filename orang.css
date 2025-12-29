@@ -9,9 +9,14 @@ body {
     /* pleace put me inside url("") pleace have mercy */ 
   background-image: url("pictures/artbgsmall.png");
     /* ITS IN FUCKING PICTURES AHHHHHHHHHH */
+  
   background-repeat: no-repeat;
+  
     /* it scrolls with the page, not that hard */
   background-attachment: scroll;
+    /* PLEASE FILL THE WHOLE PAGE */
+  background-size: cover;
+  background-position: center;
 }
 
 div {

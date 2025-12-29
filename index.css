@@ -25,3 +25,10 @@ header {
   background-color: #cc8899;
   padding: 12px;
 }
+
+/* my beloved sideabar */
+nav {
+  float: left;
+  width: 100;
+  padding: 12px;
+}

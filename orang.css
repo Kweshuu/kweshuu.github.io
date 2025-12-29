@@ -6,7 +6,8 @@ p {
 }
 
 body {
-   background-image: images/musicbgfulledit.png;
+    /* pleace put me inside url("") pleace have mercy */ 
+   background-image: url("images/musicbgfulledit.png");
    background-repeat: no-repeat;
 }
 

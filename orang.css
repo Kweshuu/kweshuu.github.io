@@ -14,7 +14,7 @@ body {
   
     /* it scrolls with the page, not that hard */
   background-attachment: scroll;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 }
 

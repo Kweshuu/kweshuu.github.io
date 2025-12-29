@@ -17,4 +17,5 @@ div {
   margin: 100px;
     /* px gap from text to border */
   padding: 12px;
+  border-style: dashed;
 }

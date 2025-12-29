@@ -14,7 +14,8 @@ div {
   border-color: #893204;
   width: auto;
     /* gap between borders */
-  margin: 12px;
+  margin-side: 100px;
+  margin-top: 62px;
     /* px gap from text to border */
   padding: 12px;
   border-style: dashed;

@@ -6,7 +6,8 @@ p {
 }
 
 body {
-
+   background-image: images/musicbgfulledit.png;
+   background-repeat: no-repeat;
 }
 
 div {

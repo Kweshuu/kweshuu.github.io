@@ -20,3 +20,15 @@ div {
   padding: 12px;
   border-style: dashed;
 }
+
+div1 {
+  border: solid;
+  border-color: #ffffff4;
+  width: auto;
+    /* gap between borders */
+  margin-side: 1px;
+  margin-top: 1px;
+    /* px gap from text to border */
+  padding: 1px;
+  border-style: solid;
+}

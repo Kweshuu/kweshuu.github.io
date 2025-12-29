@@ -14,8 +14,7 @@ body {
   
     /* it scrolls with the page, not that hard */
   background-attachment: scroll;
-    /* PLEASE FILL THE WHOLE PAGE */
-  background-size: cover;
+  background-size: contain;
   background-position: center;
 }
 

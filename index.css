@@ -31,6 +31,7 @@ nav {
   float: left;
   width: 100;
   padding: 12px;
+  hight: 100%
 }
 
 /* my beloved shit */
@@ -38,5 +39,7 @@ article {
   float: left;
   padding: 12px;
   width: auto;
+  hight: 100%
+  background-color: #cc8899;
 
 }
